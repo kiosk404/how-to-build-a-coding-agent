@@ -1,6 +1,6 @@
 # 如何构建一个编程智能代理 (How to Build a Coding Agent)
 
-这是一个完整的 Go 语言教程，受到 [ghuntley/how-to-build-a-coding-agent](https://github.com/ghuntley/how-to-build-a-coding-agent) 项目的启发，教你如何构建一个 Coding Agent，从基础的 Function Call 到基于 MCP (Model Context Protocol) 的编程智能Agent。项目包含从基础对话到高级工具调用的完整示例。
+这是一个完整的 Go LLM Agent 教程，受到 [ghuntley/how-to-build-a-coding-agent](https://github.com/ghuntley/how-to-build-a-coding-agent) 项目的启发，教你如何构建一个 Coding Agent，从基础的 Function Call 到基于 MCP (Model Context Protocol) 的编程智能Agent。项目包含从基础对话到高级工具调用的完整示例。
 
 你不需要成为人工智能专家。跟着做，一步步建造！
 You don’t need to be an AI expert. Just follow along and build step-by-step!

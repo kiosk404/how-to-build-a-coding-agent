@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "web_browser": {
+      "type": "sse",
+      "url": "http://localhost:9621",
+      "args": []
+    },
+    "filesystem": {
+      "command": "go",
+      "args": [
+        "run",
+        "./mcp_tool/stdio/filesystem/filesystem.go"
+      ]
+    },
+    "code_search": {
+      "command": "go",
+      "args": [
+        "run",
+        "./mcp_tool/stdio/code_search/code_search.go"
+      ]
+    },
+    "context7": {
+      "command": "npx",
+      "args": [
+        "-y", "@upstash/context7-mcp@latest"
+      ],
+      "disabled": false
+    }
+  }
+}
